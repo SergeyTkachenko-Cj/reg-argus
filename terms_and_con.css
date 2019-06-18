@@ -1,0 +1,21 @@
+@media (min-width: 992px) and (min-height: 928px) {
+
+	html,
+	body,
+	#main,
+	#primary,
+	#content,
+	#post-93,
+	.entry-content,
+	.bl01,
+	.bl01_cvr {
+		height: 100%;
+	}
+}
+
+@media (max-width: 1200px) {
+
+	div.col-md-2.logo {
+		margin-right: 3em;
+	}
+}
