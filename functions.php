@@ -501,9 +501,15 @@ add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
 function popup_javascript() {
     ?>
         <script>
-          // var frm = document.querySelector('#hid_frm a');
-          // console.log(frm);
-          // alert('bambi');
+            window.onload = function() {
+
+              setTimeout(hid_btn_click, 1000);
+
+                  function hid_btn_click() {
+                    var frm_a = document.querySelector('.fc-btn');
+                    frm_a.click();
+                  }
+            }
         </script>
     <?php
 }

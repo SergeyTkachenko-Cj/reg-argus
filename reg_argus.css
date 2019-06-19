@@ -12,11 +12,13 @@ html, body {
 	display: none
 }
 
-/*#pozvonim-button,
-#chat-24-widget-container,
-.pozvonim-mobile.animation-shown {
-	display: none !important;
-}*/
+div#pozvonim-button.BOTTOM-RIGHT.pozvonim-animated {
+	z-index: 11000 !important;
+}
+
+div[id^='pozvonim-mobile-button-'] {
+	z-index: 11000 !important;
+}
 
 .img_cvr {
 	display: inline-block;
@@ -342,6 +344,10 @@ div.btn02.only_btn a.fc-btn:hover {
 	margin-top: 4em
 }
 
+.fcmodal {
+	outline: none !important;
+}
+
 .fcmodal.fcin {
 	background: rgba(0, 0, 0, 0.7) !important;
 }
@@ -362,9 +368,27 @@ div.btn02.only_btn a.fc-btn:hover {
 }
 
 .fcmodal p[style="text-align:center;"] {
-		margin-top: 3.5em !important;
-		color: #3BAF72 !important;
-	}
+	margin-top: 3.5em !important;
+	color: #3BAF72 !important;
+}
+
+div[id$='8'] .fcmodal-body {
+	background: orange;
+	background: url(/wp-content/work-safety.jpg);
+	background-size: cover;
+	background-position-y: 80%; 
+}
+
+div[id$='8'] .fcmodal-content {
+	background-image: none !important
+}
+
+a#sem {
+	display: inline-block;
+	margin-top: 1em;
+    color: darkblue;
+    text-decoration: underline !important;
+}
 
 .cwt_marg_top {
 	margin-top: 10px !important;
@@ -700,9 +724,24 @@ div.btn02.only_btn a.fc-btn:hover {
 	}
 
 	.fcmodal input[type="text"],
+	.fcmodal input[type="email"],
 	.fcmodal .nform_btn {
 		float: none !important;
 		max-width: none !important;
+	}
+
+	div[id$='8'] .hdr {
+		position: static !important;
+		width: 100% !important;
+		margin-bottom: 1.5em
+	}
+
+	div[id$='8'] .hdr p {
+		text-align: center;
+	}
+
+	div[id$='8'] .hdr h6 {
+		display: none;
 	}
 
 	#form_ul li.inline2, .inline2 {

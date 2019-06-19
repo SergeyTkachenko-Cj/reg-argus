@@ -92,7 +92,7 @@ a { outline: medium none !important; }
 .fc-btn:hover, button:hover { -webkit-transition: 500ms ease; -moz-transition: 500ms ease; -o-transition: 500ms ease; transition: 500ms ease; }
 .fc-btn:active, button:active { }
 .fc-common input[type="text"], textarea, .fc-common textarea, .fc-common input[type="email"] { color: black !important; font-family: "Open Sans"; font-size: 14px !important; font-weight: 400 !important; border: none; border-bottom: 2px solid black; line-height: 50px; background-color: rgb(255, 255, 255); padding: 0 20px; margin: 0 0 15px !important; }
-.fcmodal input[type="text"] { max-width: 360px; float: right; }
+.fcmodal input[type="text"], .fcmodal input[type="email"] { max-width: 360px; float: right; }
 .emailfield-cover { width: 100% !important; }
 .fc-common textarea:focus, .fc-common input:focus, .fc-common select:focus { border: 1px solid #E85430 !important; }
 .fcmodal-dialog { }
