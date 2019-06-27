@@ -116,7 +116,7 @@ a { outline: medium none !important; }
 .fc-common input[type="text"].phonenum { }
 .nform #form_ul { padding: 1px !important; width: 100%; }
 .valid_show { margin-left: -80% !important }
-.hdr.ng-scope { position: absolute; left: 0; top: 0; width: 320px; }
+/*.hdr.ng-scope { position: absolute; left: 0; top: 0; width: 320px; }*/
 
 /*Настройка модали бутстрапа*/
 .modal-backdrop.in { z-index: -1; }

@@ -394,6 +394,60 @@ a#sem {
 	margin-top: 10px !important;
 }
 
+.hvr_terms {
+	display: none !important
+}
+
+.hdr h6 {
+	margin-bottom: 1.5em;
+	font-size: 20px
+}
+
+div.wpcs_content_main.is_open {
+	right: 20px !important; 
+	top: 20px !important;
+	top: calc(50% - 271px) !important; 
+	width: 250px !important;
+	height: auto !important;
+	background: none !important;
+}
+
+div.wpcs_content_inner {
+	margin: 0 !important;
+}
+
+.nform_li.ng-scope.inline1.center.fe_1.required-1,
+.nform.placeholder #form_ul .input_cover, 
+.nform.placeholder #form_ul .box_cover,
+#form_ul li.inline1, .inline1 {
+	width: auto !important;
+	min-width: 0 !important;
+}
+
+#wpcs_overlay_1230 {
+	display: none !important
+}
+
+#wpcs_tab_1230 {
+	/*color: #000 !important;
+	background: rgba(29, 179, 194, 0.8) !important;*/
+	visibility: hidden !important;
+}
+
+#wpcs_tab_1230::after {
+    content: "СЕМИНАР";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 2px 0px 2px 0px;
+    width: 170px;
+    height: 34px;
+    overflow: hidden;
+    color: #0c0000;
+    background: rgba(29, 179, 194, 0.8);
+    visibility: visible;
+}
 
 
 

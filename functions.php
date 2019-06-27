@@ -513,5 +513,5 @@ function popup_javascript() {
         </script>
     <?php
 }
-add_action('wp_head', 'popup_javascript');
+// add_action('wp_head', 'popup_javascript');
 ?>
