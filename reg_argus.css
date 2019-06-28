@@ -407,13 +407,16 @@ div.wpcs_content_main.is_open {
 	right: 20px !important; 
 	top: 20px !important;
 	top: calc(50% - 271px) !important; 
-	width: 250px !important;
+	width: 350px !important;
 	height: auto !important;
-	background: none !important;
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.4);
+	background: url(/wp-content/progperepodpooxrane_thumb.jpg) !important;
+    background-position: -50px -140px !important;
 }
 
 div.wpcs_content_inner {
 	margin: 0 !important;
+	background-color: rgba(255, 255, 255, 0.2) !important
 }
 
 .nform_li.ng-scope.inline1.center.fe_1.required-1,
@@ -429,8 +432,7 @@ div.wpcs_content_inner {
 }
 
 #wpcs_tab_1230 {
-	/*color: #000 !important;
-	background: rgba(29, 179, 194, 0.8) !important;*/
+	top: calc(50% - 150px) !important;
 	visibility: hidden !important;
 }
 
@@ -447,6 +449,38 @@ div.wpcs_content_inner {
     color: #0c0000;
     background: rgba(29, 179, 194, 0.8);
     visibility: visible;
+}
+
+.a_1238 .field_class {
+	height: 30px
+}
+
+.a_1238 .submit_button {
+	margin-bottom: 0 !important;
+	height: 35px !important;
+}
+
+#fe_1_1238 .ng-scope .valid_show,
+#fe_2_1238 .ng-scope .valid_show,
+#fe_3_1238 .ng-scope .valid_show {
+	top: -30px !important
+}
+
+#marg_date, #marg_name {
+    margin-bottom: 0.8em !important;
+}
+
+#marg_app {
+    margin-bottom: 2em !important;
+}
+
+#wpcs_close_slider_1230 img {
+	display: none !important
+}
+
+#wpcs_close_slider_1230 {
+	background: url(/wp-content/cross_cross.png) !important;
+	background-size: cover !important;
 }
 
 
@@ -884,6 +918,14 @@ div.wpcs_content_inner {
 	
 	.bl03 .box {
 		padding: 0 !important;
+	}
+}
+
+@media (max-width: 422px) {
+
+	div.wpcs_content_main.is_open {
+		right: 0 !important; 
+		width: 100% !important;
 	}
 }
 
