@@ -497,21 +497,4 @@ function twentytwelve_customize_preview_js() {
 	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20141120', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
-
-function popup_javascript() {
-    ?>
-        <script>
-            window.onload = function() {
-
-              setTimeout(hid_btn_click, 1000);
-
-                  function hid_btn_click() {
-                    var frm_a = document.querySelector('.fc-btn');
-                    frm_a.click();
-                  }
-            }
-        </script>
-    <?php
-}
-// add_action('wp_head', 'popup_javascript');
 ?>

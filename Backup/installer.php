@@ -4185,10 +4185,10 @@ abstract class DUPX_Connectivity
 class DUPX_Bootstrap
 {
 	//@@ Params get dynamically swapped when package is built
-	const ARCHIVE_FILENAME	 = '20190419_d0b0d180d0b3d183d181d18dd0bad0_a60198cdfe2e0f7b1253_20190628114640_archive.zip';
-	const ARCHIVE_SIZE		 = '48191722';
+	const ARCHIVE_FILENAME	 = '20190419_d0b0d180d0b3d183d181d18dd0bad0_dcf4ad1079dda7953408_20190629084654_archive.zip';
+	const ARCHIVE_SIZE		 = '48234325';
 	const INSTALLER_DIR_NAME = 'dup-installer';
-	const PACKAGE_HASH		 = 'a60198c-28114640';
+	const PACKAGE_HASH		 = 'dcf4ad1-29084654';
 	const CSRF_CRYPT		 =  1;
 	const VERSION			 = '1.3.10';
 

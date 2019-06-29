@@ -210,6 +210,11 @@ div[id^='pozvonim-mobile-button-'] {
 	background-size: cover !important;
 }
 
+.bl02 .cwt.green,
+.bl05 .cwt.green {
+	margin: 0 0 30px 0 !important
+}
+
 div.edit {
 	margin-bottom: 3.5em; 
 }
@@ -481,6 +486,15 @@ div.wpcs_content_inner {
 #wpcs_close_slider_1230 {
 	background: url(/wp-content/cross_cross.png) !important;
 	background-size: cover !important;
+}
+
+div.fcmodal-content div.fcclose, 
+div.fcmodal-content div.fcclose:hover {
+	right: 97% !important;
+}
+
+.fc-form-modal .a_1231.nform {
+	padding-top: 3em !important
 }
 
 
@@ -844,6 +858,16 @@ div.wpcs_content_inner {
 
 	#fe_0_1231 p {
 		display: none;
+	}
+
+	div.fcmodal-content div.fcclose, 
+	div.fcmodal-content div.fcclose:hover {
+		right: 95% !important;
+		top: 88% !important;
+	}
+
+	.fc-form-modal .a_1231.nform {
+		padding-top: 15px !important
 	}
 }
 
