@@ -408,6 +408,10 @@ a#sem {
 	font-size: 20px
 }
 
+#wpcs_content_inner_1230 {	/* hide pop-up window */
+	display: none !important;
+}
+
 div.wpcs_content_main.is_open {
 	right: 20px !important; 
 	top: 20px !important;
@@ -434,6 +438,10 @@ div.wpcs_content_inner {
 
 #wpcs_overlay_1230 {
 	display: none !important
+}
+
+#wpcs_tab_1230 {	/* hide pop-up window */
+	display: none !important;
 }
 
 #wpcs_tab_1230 {
